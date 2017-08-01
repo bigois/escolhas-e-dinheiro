@@ -248,6 +248,7 @@ section.download .badges .badge-link:last-child {
 }
 section.download .badges .badge-link img {
   height: 60px;
+
 }
 @media (min-width: 768px) {
   section.download .badges .badge-link {
@@ -272,7 +273,7 @@ section.features .section-heading p {
 section.features .device-container,
 section.features .feature-item {
   max-width: 300px;
-  margin: 0 auto;
+  margin: 0 0 0 0;
 }
 section.features .device-container {
   margin-bottom: 100px;
