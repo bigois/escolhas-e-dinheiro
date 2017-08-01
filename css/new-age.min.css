@@ -73,7 +73,7 @@ p {
 }
 
 .navbar-default {
-    background-color: #fff;
+    background-color: #2d2c3f;
     border-color: rgba(34, 34, 34, .05);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -98,7 +98,7 @@ p {
 
 .navbar-default .navbar-header .navbar-toggle {
     font-size: 12px;
-    color: #222;
+    color: #FFF;
     padding: 8px 10px
 }
 
@@ -108,7 +108,7 @@ p {
 
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-    color: #222
+    color: #FFF;
 }
 
 .navbar-default .nav > li > a:focus:hover,
@@ -291,7 +291,7 @@ section.download .badges .badge-link img {
 }
 
 section.features .section-heading {
-    margin-bottom: 100px
+    margin-bottom: 70px
 }
 
 section.features .section-heading h2 {
@@ -324,7 +324,6 @@ section.features .device-container {
 
 section.features .feature-item {
     text-align: center;
-    margin-bottom: 100px
 }
 
 section.contact h2,
@@ -452,9 +451,7 @@ footer ul li a:hover {
 }
 
 .bg-primary {
-    background: #fdcc52;
-    background: -webkit-linear-gradient(#fdcc52, #fdc539);
-    background: linear-gradient(#fdcc52, #fdc539)
+    background: #00293c;
 }
 
 .text-primary {
@@ -509,4 +506,56 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0
+}
+
+.mob-img {
+    width: 20%;
+}
+
+@media (max-width: 800px) {
+    section.download h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 17px;
+        line-height: 1.4;
+        margin-bottom: 13px;
+    }
+    section.download {
+        padding: 30px 0;
+    }
+    .btn-xl {
+        padding: 13px;
+        font-size: 10p;
+    }
+    section h2 {
+        font-size: 25px;
+    }
+    .h3,
+    h3 {
+        font-size: 18px;
+    }
+    section {
+        padding: 20px 0;
+    }
+    .mob-img {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px) {
+    .link-logo {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 }
