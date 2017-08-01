@@ -541,6 +541,9 @@ img::-moz-selection {
     .mob-img {
         width: 50%;
     }
+    .pale-title {
+        font-size: 40px;
+    }
 }
 
 @media (min-width: 800px) {
@@ -548,6 +551,7 @@ img::-moz-selection {
         display: none;
     }
 }
+
 
 
 
